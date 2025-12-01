@@ -1,0 +1,124 @@
+%!TeX program = xelatex
+\documentclass[a4paper, 12pt]{article} 
+
+% --- Idioma y Codificación ---
+\usepackage[spanish]{babel}
+
+% --- Fuentes (Requiere XeLaTeX o LuaLaTeX) ---
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Times New Roman}
+
+% --- Geometría y Márgenes ---
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+
+% --- Paquetes para Tablas ---
+\usepackage{adjustbox}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}      
+\usepackage{ragged2e}   
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{float}      
+
+% --- Gráficos y Colores ---
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor} 
+\usepackage{background}
+
+% --- Títulos y Listas ---
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{enumitem}
+\usepackage{caption}
+\captionsetup[table]{skip=5pt}
+
+% --- Hipervínculos ---
+\usepackage{hyperref}
+\usepackage{bookmark}
+
+% --- Configuración de Títulos Personalizada ---
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\titleclass{\subsubsubsection}{straight}[\subsubsection]
+\newcounter{subsubsubsection}[subsubsection]
+\renewcommand\thesubsubsubsection{\thesubsubsection.\arabic{subsubsubsection}}
+\titleformat{\subsubsubsection}{\normalfont\normalsize\bfseries}{\thesubsubsubsection}{1em}{}
+\titlespacing*{\subsubsubsection}{0pt}{1ex plus .2ex minus .2ex}{1ex plus .2ex}
+
+\usepackage{etoolbox}
+\makeatletter
+\expandafter\def\csname l@subsubsubsection\endcsname{\@dottedtocline{4}{7em}{4em}}
+\makeatother
+
+% --- Configuración del Fondo INICIAL (Para la Portada) ---
+\backgroundsetup{
+  scale=0.88,
+  opacity=1,
+  angle=0,
+  contents={\includegraphics[scale=1]{COKE_template/Y-Imagenes/bg.jpg}} 
+}
+
+\begin{document}
+
+% --- PORTADA ---
+\begin{titlepage}
+    \centering
+    \vspace*{0.5cm}
+    {\sffamily\fontsize{45}{40}\selectfont \textcolor{darkgray}{INFORME MENSUAL DE MANTENIMIENTO} \par}
+    \vspace{1cm}
+    {\sffamily\fontsize{30}{36}\selectfont \textcolor{darkgray}{PLANTAS DE LIMPIEZA DE GASES} \par}
+    
+    \vspace{8cm}
+    \begin{flushleft}
+    {\sffamily\fontsize{15}{22}\selectfont
+    \textbf{Fecha:} 25 de Noviembre 2025 \par
+    \textbf{Empresa:} INVENIO \par
+    \textbf{Contrato:} 4600029959 \par
+    }
+    \end{flushleft}
+    
+    \vspace{0 cm}
+    \begin{flushleft}
+    {\sffamily\fontsize{15}{22}\selectfont
+    \textbf{Elaborado por:} Jorge Carrasco V. - Administrador de Contrato \par
+    \textbf{} \hspace{3.4 cm}  Pablo Cid – Supervisor \par
+    }
+    \end{flushleft}
+
+    \begin{flushleft}
+    {\sffamily\fontsize{17}{26}\selectfont \textbf{1. Resumen General} \par}
+    \end{flushleft}
+    \vspace{0 cm}
+    \begin{flushleft}
+    {\sffamily\fontsize{14}{20}\selectfont
+   \justifying
+    Durante noviembre se realizan reparaciones en los Precipitadores A,B y C. Se logra abarcar la reparación interior completa de los Precipitadores A y C, en el Precipitador B aún quedan pendientes algunos puntos del nivel inferior, estos serán finalizados durante la ultima semana de Noviembre.\newline
+
+    Se ejecutan trabajos correctivos con fibra, soldadura PP, HDPE y Gel Coat en drenajes, líneas de bajada y tuberías en la torre de lavado. El periodo cierra con la reparación de 21 puntos correspondientes al nivel superior del precipitador B y trabajos adicionales en la ETP.\par}
+    \end{flushleft}
+    \vfill
+\end{titlepage}
+
+% ======================================================================
+% CAMBIO DE FONDO PARA EL RESTO DEL DOCUMENTO
+% ======================================================================
+\newpage % Asegura que estamos en página nueva (titlepage ya lo hace, pero por seguridad)
+\backgroundsetup{
+  scale=0.88, % Mismo escalado (ajusta si bg_white es de diferente tamaño)
+  opacity=1,
+  angle=0,
+  contents={\includegraphics[scale=1]{COKE_template/bg_.jpg}} 
+}
+% ======================================================================
+
+\pagenumbering{arabic}
+\setcounter{section}{1}
+
+% --- AQUÍ SE INSERTA EL ARCHIVO HIJO ---
+\section{Actividades Realizadas}
+\input{13-Contenido/Desarrollo}
+
+\end{document}
