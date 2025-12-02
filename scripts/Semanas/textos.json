@@ -13,5 +13,20 @@
         "fotos": ["S1.jpg"]
       }
     ]
+  },
+  {
+    "id": "S2",
+    "titulo": "Semana 2. (27 al 31) de Octubre del 2025",
+    "datos": [
+      {
+        "fecha": "28-10-2025",
+        "equipo_sistema": "Precipitador A. Drenaje.",
+        "tipo_mantenimiento": "Correctivo",
+        "descripcion_trabajo": "Retiro de drenaje para realizar cambio de Stub de 1'' a Stub de 4''. Se realiza fabricación del Stub de 4'' para posterior instalación.",
+        "personal_directo": "1 Supervisor, 6 Maestros, 1 APR",
+        "area": "PLG 1",
+        "fotos": ["S2.jpg"]
+      }
+    ]
   }
 ]

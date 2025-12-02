@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1764644705.82129 "main.xdv" "main.pdf" "main" 1764644706.18767 0
-  "main.xdv" 1764644705 19456 0197e83df7676947cad4bc83ec976812 "xelatex"
+["xdvipdfmx"] 1764645471.73138 "main.xdv" "main.pdf" "main" 1764645472.0955 0
+  "main.xdv" 1764645471 25916 5a4a311ed2abd6c141107ec5d815d7d6 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1764644704.29075 "c:/Users/rober/OneDrive/Documentos/GitHub/Latex-Informe_Mensual_de_Mantencion/main.tex" "main.xdv" "main" 1764644706.17624 0
-  "13-Contenido/Desarrollo.tex" 1764644698 1341 351d803a8327ebdc7f0989e0eb602939 ""
+["xelatex"] 1764645470.17047 "c:/Users/rober/OneDrive/Documentos/GitHub/Latex-Informe_Mensual_de_Mantencion/main.tex" "main.xdv" "main" 1764645472.08416 0
+  "13-Contenido/Desarrollo.tex" 1764645458 2704 0f5bf96067f8b8c690a06a82cc84b94f ""
   "C:/Users/rober/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1764631023 37546278 27c758aae269ab9706cc6158fcc8d541 ""
   "C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136786654 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Users/rober/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -158,9 +158,10 @@
   "Y-Imagenes/bg.jpg" 1764638892 47585 c1222a91f2bfd6d3844c0a37a470ac7c ""
   "Y-Imagenes/bg_fondo.jpg" 1764641740 60353 5f3224983df8055dc4ec3b527f9ff8aa ""
   "c:/Users/rober/OneDrive/Documentos/GitHub/Latex-Informe_Mensual_de_Mantencion/main.tex" 1764642246 5492 a48300e8904e7af556a3680fd82d13d8 ""
-  "main.aux" 1764644705 745 e3c09a286aca46af2541876b72b9887d "xelatex"
+  "main.aux" 1764645471 935 852a5e2684abcb4c3e0c35b4a5c242a3 "xelatex"
   "main.tex" 1764642246 5492 a48300e8904e7af556a3680fd82d13d8 ""
   "scripts/Semanas/pic/S1.jpg" 1764620506 154431 af2194621c7df717ff4bff8afe6ef71c ""
+  "scripts/Semanas/pic/S2.jpg" 1764620506 154431 af2194621c7df717ff4bff8afe6ef71c ""
   (generated)
   "main.aux"
   "main.log"
