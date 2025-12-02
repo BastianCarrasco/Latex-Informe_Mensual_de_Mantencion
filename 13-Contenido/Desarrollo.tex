@@ -1,45 +1,34 @@
-\begin{table}
-\centering
-\begin{tabular}{|c|c|c|}
-\hline
-\textbf{Columna 1} & \textbf{Columna 2} & \textbf{Columna 3} \\
-\hline
-Dato 1 & Dato 2 & Dato 3 \\
-Dato 4 & Dato 5 & Dato 6 \\
-\hline
-\end{tabular}
-\caption{Ejemplo de tabla simple}
-\label{tab:ejemplo}
+\subsection{Semana 1. (20 al 24) de Octubre del 2025}
 
-\end{table}
-
-\begin{table}[ht]
-\centering
-\begin{tabular}{|c|c|}
+        \begin{table}[H]
+            \centering
+            \footnotesize
+            \begin{tabular}{|
+                >{\small\centering\arraybackslash}m{1.8cm}|
+                >{\small\centering\arraybackslash}m{2.8cm}|
+                >{\small\centering\arraybackslash}m{2.8cm}|
+                >{\small}m{4cm}|
+                >{\small}m{2cm}|
+                >{\small\centering\arraybackslash}m{1.2cm}|
+            }
+                \hline
+                \textbf{Fecha} &
+                \textbf{Equipo / Sistema} &
+                \textbf{Tipo de Mantenimiento} &
+                \centering \textbf{Descripción del trabajo realizado} &
+                \centering \textbf{Personal Directo} &
+                \textbf{Área} \\
+                \hline\hline
+                \textbf{21-10-2025} &
+Precipitador A. Drenaje. &
+Correctivo &
+Retiro de drenaje para realizar cambio de Stub de 1'' a Stub de 4''. Se realiza fabricación del Stub de 4'' para posterior instalación. &
+1 Supervisor, 6 Maestros, 1 APR &
+PLG 1 \\
 \hline
-\begin{minipage}{0.45\linewidth}\centering
-\includegraphics[height=4cm]{imagenes/imagen1.png}\\
-\small Imagen 1
-\end{minipage}
-&
-\begin{minipage}{0.45\linewidth}\centering
-\includegraphics[height=4cm]{imagenes/imagen2.png}\\
-\small Imagen 2
-\end{minipage}
-\\
+\multicolumn{6}{|c|}{\textbf{Registro Fotográfico}} \\
 \hline
-\begin{minipage}{0.45\linewidth}\centering
-\includegraphics[height=4cm]{imagenes/imagen3.png}\\
-\small Imagen 3
-\end{minipage}
-&
-\begin{minipage}{0.45\linewidth}\centering
-\includegraphics[height=4cm]{imagenes/imagen4.png}\\
-\small Imagen 4
-\end{minipage}
-\\
+\multicolumn{6}{|c|}{ \includegraphics[width=\textwidth,keepaspectratio]{scripts/Semanas/pic/S1.jpg} } \\
 \hline
-\end{tabular}
-\caption{Matriz 2x2 con una imagen en cada celda}
-\label{tab:matriz2x2}
-\end{table}
+            \end{tabular}
+        \end{table}

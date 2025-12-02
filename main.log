@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.1)  1 DEC 2025 23:12
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.12.1)  2 DEC 2025 00:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -805,17 +805,39 @@ File: Y-Imagenes/bg.jpg Graphic file (type bmp)
 ]
 File: Y-Imagenes/bg.jpg Graphic file (type bmp)
 <Y-Imagenes/bg.jpg>
- [2]
-File: Y-Imagenes/bg.png Graphic file (type bmp)
-<Y-Imagenes/bg.png>
+ [2] (13-Contenido/Desarrollo.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\TU/TimesNewRoman(0)/m/n/10.95 1 Super-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+\TU/TimesNewRoman(0)/m/n/10.95 visor, 6
+ []
+
+
+Underfull \hbox (badness 7649) in paragraph at lines 26--26
+\TU/TimesNewRoman(0)/m/n/10.95 Maestros, 1
+ []
+
+File: scripts/Semanas/pic/S1.jpg Graphic file (type bmp)
+<scripts/Semanas/pic/S1.jpg>
+
+Overfull \hbox (12.8pt too wide) in paragraph at lines 6--34
+ [][] 
+ []
+
+)
+File: Y-Imagenes/bg_fondo.jpg Graphic file (type bmp)
+<Y-Imagenes/bg_fondo.jpg>
  [1
 
-]
-
-Package caption Warning: Unused \captionsetup[table] on input line 44.
-See the caption package documentation for explanation.
-
-(main.aux
+] (main.aux
 LaTeX Info: Redefining \. on input line 13.
 LaTeX Info: Redefining \% on input line 13.
 )
@@ -825,12 +847,12 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 27243 strings out of 409613
- 542551 string characters out of 5773918
+ 27293 strings out of 409613
+ 544153 string characters out of 5773918
  1924191 words of memory out of 5000000
- 48949 multiletter control sequences out of 15000+600000
- 558621 words of font info for 61 fonts, out of 8000000 for 9000
+ 48985 multiletter control sequences out of 15000+600000
+ 558685 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,10n,117p,531b,899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (3 pages, 13964 bytes).
+Output written on main.xdv (3 pages, 19456 bytes).

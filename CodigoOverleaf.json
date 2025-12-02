@@ -1,0 +1,167 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.visible": false,
+  "editor.fontSize": 15,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "explorer.confirmPasteNative": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggestOnCommitCharacters": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+
+  "typescript.suggest.completeJSDocs": false,
+  "javascript.suggest.autoImports": false,
+  "typescript.suggest.autoImports": false,
+  "javascript.suggest.completeFunctionCalls": false,
+  "typescript.suggest.completeFunctionCalls": false,
+
+  "python.languageServer": "Pylance",
+  "python.analysis.completeFunctionParens": false,
+  "python.analysis.autoImportCompletions": false,
+  "python.createEnvironment.trigger": "off",
+
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  "go.toolsManagement.autoUpdate": true,
+  "svelte.enable-ts-plugin": true,
+  "kogito.swf.automaticallyOpenDiagramEditorAlongsideTextEditor": "Open automatically",
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+
+  "mdb.mcp.server": "prompt",
+
+  "latex-workshop.latex.tools": [
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": ["--interaction=nonstopmode", "--synctex=1", "%DOC%"]
+    },
+    {
+      "name": "xelatex",
+      "command": "xelatex",
+      "args": ["--interaction=nonstopmode", "--synctex=1", "%DOC%"]
+    },
+    {
+      "name": "lualatex",
+      "command": "lualatex",
+      "args": ["--interaction=nonstopmode", "--synctex=1", "%DOC%"]
+    },
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": ["-pdf", "--interaction=nonstopmode", "--synctex=1", "%DOC%"]
+    },
+    {
+      "name": "xelatexmk",
+      "command": "latexmk",
+      "args": ["-xelatex", "--interaction=nonstopmode", "--synctex=1", "%DOC%"]
+    },
+    {
+      "name": "lualatexmk",
+      "command": "latexmk",
+      "args": ["-lualatex", "--interaction=nonstopmode", "--synctex=1", "%DOC%"]
+    },
+    {
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": ["%DOCFILE%"]
+    },
+    {
+      "name": "tectonic",
+      "command": "tectonic",
+      "args": ["--synctex", "--keep-intermediates", "--keep-logs", "%DOC%"]
+    }
+  ],
+
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk (xelatex)",
+      "tools": ["xelatexmk"]
+    },
+    {
+      "name": "latexmk (lualatex)",
+      "tools": ["lualatexmk"]
+    },
+    {
+      "name": "latexmk (pdf)",
+      "tools": ["latexmk"]
+    },
+    {
+      "name": "XeLaTeX -> BibTeX -> XeLaTeX*2",
+      "tools": ["xelatex", "bibtex", "xelatex", "xelatex"]
+    },
+    {
+      "name": "pdfLaTeX -> BibTeX -> pdfLaTeX*2",
+      "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
+    },
+    {
+      "name": "Tectonic",
+      "tools": ["tectonic"]
+    }
+  ],
+
+  "latex-workshop.latex.recipe.default": "latexmk (xelatex)",
+
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.clean.enabled": true,
+  "latex-workshop.latex.clean.subfolder": ["_minted"],
+  "latex-workshop.message.log.show": false,
+  "latex-workshop.synctex.afterBuild.enabled": true,
+  "latex-workshop.latex.autoBuild.run": "never",
+  "latex-workshop.intellisense.package.enabled": true,
+  "latex-workshop.intellisense.bibtexJSON.replace": {}
+}
